@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.all {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+.wrapper {
+    width: 100%;
+}
+.wrapper .carousel {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+}
+.carousel .card {
+    line-height: 250px;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 90px;
+    font-weight: 700;
+    margin: 20px 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+.carousel .card-1 {
+    background-color: red;
+}
+.carousel .card-2 {
+    background-color: blue;
+}
+.carousel .card-3 {
+    background-color: green;
+}
+.carousel .card-4 {
+    background-color: orange;
+}
+.carousel .card-5 {
+    background-color: purple;
+}
+.owl-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+.owl-dot {
+    height: 15px;
+    width: 35px;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    margin: 0 5px;
+    border: 2px solid navy !important;
+    transition: all 0.3s linear;
+}
+.owl-dot:hover {
+    background-color:  navy !important;
+}
+.owl-dot.active {
+    background-color:  navy !important;
+}
+
+
+
+
+
+
